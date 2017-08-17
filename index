@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>danmuwangzhan</title>
+	<link rel="stylesheet" href="styles/styles.css">
+	<script type="text/javascript" src="https://cdn.wilddog.com/js/vendor/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="https://cdn.wilddog.com/js/client/current/wilddog.js"></script>
+	<script type="text/javascript" src="scripts/script.js"></script>
+</head>
+<body>
+	<div class="wrap">
+		<div class="shoot_screen">
+			<div class="dm_mask"></div>
+			<div class="dm_text"></div>
+			<!-- <div>text message</div>  -->	
+		</div>
+		<div class="shoot_control">
+			<div class="s_fiter">
+				<div>
+					<input type="text" placeholder="shoot your shooter" class="con_text">
+				</div>
+				<div>
+					<input type="button" value="shoot" class="con_shoot">
+					<input type="button" value="shoot clear" class="con_clear">
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
